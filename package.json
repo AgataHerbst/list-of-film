@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/AgataHerbst/list-of-film/issues"
   },
-  "homepage": "https://github.com/AgataHerbst/list-of-film#readme"
+  "homepage": "https://github.com/AgataHerbst/list-of-film#readme",
+  "dependencies": {
+    "dom": "^0.0.3",
+    "next": "^13.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
